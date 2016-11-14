@@ -1,7 +1,7 @@
 ;
 
 +
-{ id: "jeni@jsonxd.net",
+{ id: "jeni.aeons@ions.iskitz.net",
 
   about:
     { this:
@@ -13,11 +13,11 @@
       author:
         { name: "Michael Lee",
           site: "San Jose, California, USA, Earth",
-          time: "2015.07.28...10.31-07.00"
+          time: "2016.11.14-08...2015.07.28-07.00"
         },
 
       edited:
-        { by: "editors@jeni.jsonxd.net",
+        { by: "jeni.editors@ions.iskitz.net",
           at: "2015.10.31-07.00"
         },
 
@@ -34,8 +34,8 @@
               , "simple sensors:"
                     +{on: "ask", go:Function}
                     +{on: "ask", no:Function}
-                    +{on: ["ask", "say"], go:"jeni.onJSONXD@jsonxd.net"}
-                    +{on: ["ask", "say"], no:"jeni.onJSONXD@jsonxd.net"}
+                    +{on: ["ask", "say"], go:"jeni.onJSONXD@ions.iskitz.net"}
+                    +{on: ["ask", "say"], no:"jeni.onJSONXD@ions.iskitz.net"}
                     +{on: {ask:Function, say:Function}}
                     +{on: {ask: {no:Function}, say: {no:Function}}}
 
